@@ -1,0 +1,20 @@
+{
+  "name": "1punch",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@1punch/eslint-config": "workspace:*",
+    "@1punch/typescript-config": "workspace:*",
+    "prettier": "^3.1.0",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "engines": {
+    "node": ">=18"
+  }
+}

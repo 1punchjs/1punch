@@ -1,0 +1,29 @@
+{
+    "name": "@1punch/core",
+    "version": "0.0.1",
+    "description": "@1punch/core",
+    "author": "xietian",
+    "license": "BSD-3-Clause",
+    "main": "./dist/core.cjs.js",
+    "module": "./dist/core.esm.js",
+    "types": "./dist/core.d.ts",
+    "files": [
+      "dist",
+      "README.md"
+    ],
+    "keywords": [
+      "1punch"
+    ],
+    "scripts": {
+      "dev": "rollup -c -w",
+      "build": "rollup -c && node ../../build/api-extractor.js core",
+      "lint": "prettier --write src/**/*"
+    },
+    "dependencies": {
+      "tslib": "^2.3.1"
+    },
+    "devDependencies": {
+      "@1punch/types": "*"
+    }
+  }
+  
