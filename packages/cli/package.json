@@ -1,0 +1,38 @@
+{
+  "name": "@1punch/cli",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bin/dist.js",
+  "bin": {
+    "1punch": "bin/1punch-cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "scripts": {
+    "dev": "rollup -c --watch",
+    "build": "rollup -c",
+    "lint": "prettier --write src/**/*"
+  },
+  "keywords": [
+    "1punch"
+  ],
+  "author": "xietian",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "cac": "^6.7.12",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.2.0",
+    "npmlog": "^6.0.2",
+    "ora": "^5.1.0"
+  },
+  "devDependencies": {
+    "@1punch/typescript-config": "workspace:*",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@types/node": "^20.10.4",
+    "@types/npmlog": "^7.0.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-typescript2": "^0.36.0"
+  }
+}

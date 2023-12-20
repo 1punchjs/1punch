@@ -12,11 +12,11 @@
     "isolatedModules": false,
     "preserveConstEnums": true,
     "baseUrl": ".",
-    "paths": {
-      "@1punch/core": ["packages/core/src"],
-      "@1punch/types": ["packages/types/src"],
-      "@1punch/utils": ["packages/utils/src"],
-      "@1punch/cli": ["packages/cli/src"],
-    }
+    // "paths": {
+    //   "@1punch/core": ["packages/core/src"],
+    //   "@1punch/types": ["packages/types/src"],
+    //   "@1punch/utils": ["packages/utils/src"],
+    //   "@1punch/cli": ["packages/cli/src"],
+    // }
   }
 }
